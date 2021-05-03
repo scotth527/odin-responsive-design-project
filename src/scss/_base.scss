@@ -1,3 +1,64 @@
-h1 {
-    font-size: 100px;
+:root {
+  --default-icon-color: rgba(80,86,102,var(--text-opacity))
+}
+
+h1, h2, h3, p, span {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
+ul {
+  margin: 0;
+}
+
+.logo-color {
+  color: vars(--default-icon-color)
+}
+
+#nav-logo {
+  display: inline;
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  max-height: 56px;
+  align-items: center;
+  padding: 0 1.2em;
+}
+
+nav > ul {
+  display:flex;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0.75em;
+}
+
+header.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container  {
+  display: flex;
+}
+
+.logo:hover {
+  color:hotpink;
+}
+
+footer {
+  height: 485px;
+  background-color: black;
+}
+
+.footer-copyright {
+  border-top: 5px solid white;
 }
