@@ -51,6 +51,10 @@ button.pill {
 
 /* Navbar
    ========================================================================== */
+
+
+
+
 .logo-color {
   color: vars(--default-icon-color)
 }
@@ -76,6 +80,11 @@ nav > ul > li {
   list-style-type: none;
   margin: 0;
   padding: 0 0.75em;
+}
+
+.email-icon {
+    width: 1.25rem;
+    height: 1.25rem;
 }
 
 header.logo {
@@ -111,17 +120,21 @@ header.logo {
         letter-spacing: .01em;
         text-transform: uppercase;
         font-size: 2rem;
+        margin-bottom: 4rem;
     }
 
     ol {
        list-style: none;
        counter-reset: item;
        padding: 0 3em;
-
+       margin: 1.5rem;
        li {
          counter-increment: item;
          margin-bottom: 5px;
          display: flex;
+         h4 {
+             padding: 0 1rem;
+         }
        }
 
        li:before {
@@ -136,6 +149,18 @@ header.logo {
        }
     }
 
+}
+
+/** Latest stories
+============================================================================*/
+.stories {
+    padding: 7rem 2rem;
+
+    h4 {
+        margin-bottom: 4rem;
+        font-size: 2.5rem;
+        text-align: left;
+    }
 }
 
 
