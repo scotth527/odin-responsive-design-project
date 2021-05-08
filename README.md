@@ -18,3 +18,5 @@ $ npm run build
 ```
 $ npm run deploy
 ```
+
+##Responsive design project is meant to practice creating responsive design for different screen sizes
